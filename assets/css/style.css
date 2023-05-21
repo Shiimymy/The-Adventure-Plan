@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #716767;
+    --contrast-color: #f9f9f9;
+    --brand-color: #98e0e3;
+    --last-color: #ebcbae;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-color);
+}

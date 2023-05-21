@@ -52,12 +52,13 @@ ul {
     border-width: 2px;
 }
 
-/* hero */
+/* hero section*/
 
 #hero-section {
-    height: 400px;
+    height: 600px;
     width: 100%;
     clear: left;
+    margin-bottom: 20px;
 }
 
 #hero-image {

@@ -3,7 +3,7 @@
 :root {
     --primary-color: #716767;
     --contrast-color: #f9f9f9;
-    --brand-color: #98e0e3;
+    --brand-color: #0dafb5;
     --last-color: #ebcbae;
 }
 
@@ -16,4 +16,83 @@
 body {
     font-family: Roboto, sans-serif;
     color: var(--primary-color);
+    width: 100%;
+}
+
+/* navigation bar */
+
+nav {
+    float: right;
+    color: var(--contrast-color);
+}
+
+ul {
+    margin-right: 40px;
+    padding: 15px;
+}
+
+.menu-links {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.menu-links>a {
+    color: var(--contrast-color);
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.menu-links>a:hover {
+    color: var(--brand-color);
+}
+
+#active {
+    border-bottom: 1px solid var(--brand-color);
+    border-width: 2px;
+}
+
+/* hero */
+
+#hero-section {
+    height: 400px;
+    width: 100%;
+    clear: left;
+}
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background-color: var(--last-color);
+    color: var(--contrast-color);
+    background-image: url("../images/piano-di-sorento.-and-me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 200px 0 0 0;
+}
+
+#hero-content {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 700px;
+    margin-left: 50px;
+    padding: 40px 10px 30px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Lexend', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 20px;
+}
+
+#hero-content>i {
+    font-size: 50px;
+    padding: 20px 0 0 0;
 }

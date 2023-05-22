@@ -97,3 +97,36 @@ h1 {
     font-size: 50px;
     padding: 20px 0 0 0;
 }
+
+/* My view section */
+
+#view {
+    text-align: right;
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#view h2 {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 4px solid var(--brand-color);
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.view-column {
+    flex-direction: row;
+    width: 40%;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+}
+
+#view img {
+    border-radius: 50%;
+    box-shadow: 1px 1px #0dafb5;
+}

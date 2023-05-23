@@ -119,14 +119,67 @@ h1 {
     margin-bottom: 20px;
 }
 
-.view-column {
+.section-column {
     flex-direction: row;
-    width: 40%;
-    padding: 10px;
-    margin: 0 20px 0 20px;
+    width: 45%;
 }
 
 #view img {
     border-radius: 50%;
-    box-shadow: 1px 1px #0dafb5;
+    box-shadow: 1px 1px var(--brand-color);
+    width: 35%;
+    padding: 5px;
+}
+
+/* about section */
+
+#about {
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about h2 {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 4px solid var(--brand-color);
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#about-picture {
+    background-image: url(../images/Biarritz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 30px;
+}
+
+#about-picture>div {
+    color: var(--contrast-color);
+    border: 8px solid white;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.149);
+}
+
+#about-picture>div>span {
+    flex-direction: row;
+}
+
+#about-picture>div>span>i {
+    font-size: 40px;
+    border-left: 2px solid var(--contrast-color);
+    padding: 15px;
+}
+
+.about-reason {
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 5px;
 }

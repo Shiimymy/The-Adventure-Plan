@@ -66,20 +66,25 @@
         </div>
     </section>
     <footer>
-        <div id="newsletter">
-            <h3>Newsletter</h3>
-            <p>Subscribe and be aware of the latest adventures :</p>
-            <form action="#" method="post">
-                <label for="firstname">First Name :</label>
-                <input type="text" id="firstname" name="firstname" required>
-                <label for="lastname">Last Name :</label>
-                <input type="text" id="lastname" name="lastname" required>
-                <label for="email">Email :</label>
-                <input type="email" name="email" id="email" required>
-                <input type="submit" value="Subscribe">
-            </form>
+        <div class="section-column" id="newsletter-column">
+            <div id="newsletter-box">
+                <h3>Newsletter</h3>
+                <p>Subscribe and be aware of the latest adventures :</p>
+                <form action="#" method="post">
+                    <label for="firstname">First Name :</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <hr>
+                    <label for="lastname">Last Name :</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                    <hr>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" required>
+                    <hr>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
         </div>
-        <div>
+        <div id="contacts" class="section-column">
             <button><a href="#" rel="noopener">Contact</a></button>
             <div id="social-links">
                 <a href="www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>

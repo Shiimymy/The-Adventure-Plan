@@ -335,6 +335,7 @@ footer button:hover {
     justify-content: space-evenly;
     border: 3px solid var(--primary-color);
     border-radius: 4px;
+    margin-top: 20px;
     margin-left: 25px;
     width: 90%;
 }
@@ -342,12 +343,23 @@ footer button:hover {
 .card-image {
     padding: 110px;
     background-color: var(--brand-color);
-    background-image: url(../images/positano.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     margin: 3px;
     border-radius: 4px;
+}
+
+#amalfi {
+    background-image: url(../images/positano.jpg);
+}
+
+#istanbul {
+    background-image: url(../images/balat-istanbul.jpg);
+}
+
+#basque-country {
+    background-image: url(../images/villa-arnaga.jpg);
 }
 
 .card-text {

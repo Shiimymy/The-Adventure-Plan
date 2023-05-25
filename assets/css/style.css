@@ -18,6 +18,19 @@ body {
     width: 100%;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: var(--primary-color);
+    border-bottom: 4px solid var(--brand-color);
+}
+
 /* navigation bar */
 
 nav {
@@ -83,7 +96,6 @@ ul {
 
 h1 {
     font-size: 70px;
-    font-family: 'Lexend', sans-serif;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -108,11 +120,6 @@ h1 {
 }
 
 #view h2 {
-    color: var(--primary-color);
-    font-size: 35px;
-    font-family: 'Lexend', sans-serif;
-    text-transform: uppercase;
-    border-bottom: 4px solid var(--brand-color);
     padding-bottom: 10px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -140,11 +147,6 @@ h1 {
 }
 
 #about h2 {
-    color: var(--primary-color);
-    font-size: 35px;
-    font-family: 'Lexend', sans-serif;
-    text-transform: uppercase;
-    border-bottom: 4px solid var(--brand-color);
     padding-bottom: 10px;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -197,7 +199,6 @@ footer {
 /* Newsletter footer div*/
 
 footer h3 {
-    font-family: 'Lexend', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     margin: 15px 0;
@@ -307,8 +308,8 @@ footer button:hover {
 
 #destinations-tittle {
     background-image: url(../images/piano-di-sorento.-and-me.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     color: var(--contrast-color);
     padding: 50px 0;
 }
@@ -321,6 +322,70 @@ footer button:hover {
     border-radius: 4px;
 }
 
-#destinations-tittle h1 {
-    margin: 0;
+
+/* Destinations article */
+
+#destinations-articles {
+    margin: 25px 0;
+    width: 90%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid var(--primary-color);
+    border-radius: 4px;
+    margin-left: 25px;
+    width: 90%;
+}
+
+.card-image {
+    padding: 110px;
+    background-color: var(--brand-color);
+    background-image: url(../images/positano.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.card-text h2 {
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.card-text small {
+    font-style: italic;
+}
+
+.card-text p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.itinary-button {
+    text-align: right;
+    display: block;
+    margin: 10px 5px;
+}
+
+.itinary-button button {
+    padding: 10px 20px;
+    background-color: var(--brand-color);
+    color: var(--contrast-color);
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+.itinary-button button:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.5s;
 }

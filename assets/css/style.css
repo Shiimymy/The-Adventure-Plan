@@ -65,7 +65,7 @@ ul {
     width: 100%;
     background-color: var(--last-color);
     color: var(--contrast-color);
-    background-image: url("../images/piano-di-sorento.-and-me.jpg");
+    background-image: url(../images/piano-di-sorento.-and-me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -299,4 +299,28 @@ footer button:hover {
     padding: 10px;
     transition: 90ms;
 
+}
+
+/*Destination page*/
+
+/* destinations-tittle section*/
+
+#destinations-tittle {
+    background-image: url(../images/piano-di-sorento.-and-me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--contrast-color);
+    padding: 50px 0;
+}
+
+#destinations-tittle div {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 500px;
+    margin-left: 50px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 4px;
+}
+
+#destinations-tittle h1 {
+    margin: 0;
 }

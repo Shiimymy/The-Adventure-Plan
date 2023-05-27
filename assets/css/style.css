@@ -404,4 +404,77 @@ footer button:hover {
 
 /* Contact page*/
 
-/* Contact Image section*/
+#contact-form {
+    background-color: var(--brand-color);
+    background-image: url(../images/positano-from-sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    color: var(--contrast-color);
+    text-align: center;
+}
+
+#contact-form div {
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 600px;
+    padding: 20px 15px;
+    border-radius: 4px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#contact-form h1 {
+    font-size: 50px;
+}
+
+#contact-form p {
+    font-size: 20px;
+}
+
+/* Form in contact.html */
+
+#contact-form input,
+textarea {
+    margin-bottom: 15px;
+}
+
+textarea {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.622);
+    border: 1px solid var(--contrast-color);
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+textarea::placeholder {
+    color: rgb(77, 73, 73);
+}
+
+textarea:hover {
+    background-color: rgba(255, 255, 255, 0.758);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type=radio] {
+    background-color: #0dafb5;
+}
+
+#contact-form input[type=submit] {
+    padding: 10px 15px;
+    background-color: var(--contrast-color);
+    color: var(--primary-color);
+    box-shadow: #716767b1 2px 2px;
+}
+
+#contact-form input[type=submit]:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: var(--brand-color);
+    color: var(--contrast-color);
+}
+}

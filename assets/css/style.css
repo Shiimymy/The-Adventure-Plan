@@ -140,9 +140,14 @@ h1 {
 
 #about {
     width: 90%;
-    margin: 20px 5%;
+    margin: 30px 5%;
     display: flex;
     justify-content: space-evenly;
+}
+
+#about h2,
+#about p {
+    text-align: right;
 }
 
 #about h2 {
@@ -163,8 +168,6 @@ h1 {
     color: var(--contrast-color);
     border: 8px solid white;
     display: flex;
-    justify-content: end;
-    text-align: right;
     background-color: rgba(0, 0, 0, 0.149);
 }
 
@@ -174,14 +177,13 @@ h1 {
 
 #about-picture>div>span>i {
     font-size: 40px;
-    border-left: 2px solid var(--contrast-color);
-    padding: 15px;
+    padding: 20px;
 }
 
 .about-reason {
-    font-size: 20px;
-    margin-top: 8px;
+    font-size: 23px;
     padding: 5px;
+    margin-top: 10px;
 }
 
 /* Footer */

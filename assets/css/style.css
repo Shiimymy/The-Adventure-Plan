@@ -196,68 +196,6 @@ footer {
     margin-top: 10px;
 }
 
-/* Newsletter footer div*/
-
-footer h3 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 15px 0;
-}
-
-footer p {
-    margin-bottom: 15px;
-}
-
-#newsletter-column {
-    border-right: 2px solid var(--contrast-color);
-}
-
-#newsletter-box {
-    border: 1px solid var(--contrast-color);
-    border-radius: 4px;
-    width: 68%;
-    text-align: center;
-    margin: 0 16%;
-}
-
-form {
-    padding: 10px 5px;
-}
-
-form hr {
-    padding: 8px 0;
-}
-
-input {
-    background-color: rgba(255, 255, 255, 0.411);
-    border: 1px solid var(--contrast-color);
-    border-radius: 4px;
-    color: var(--primary-color);
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-input:hover {
-    background-color: rgba(255, 255, 255, 0.758);
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-input[type=submit] {
-    padding: 10px 15px;
-    background-color: var(--contrast-color);
-    color: var(--primary-color);
-    box-shadow: #716767b1 2px 2px;
-    margin-bottom: 15px;
-}
-
-input[type=submit]:hover {
-    transition: 1s;
-    cursor: pointer;
-    background-color: var(--primary-color);
-    color: var(--contrast-color);
-}
-
 /* Contact footer div*/
 
 #contacts {

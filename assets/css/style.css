@@ -297,6 +297,18 @@ footer button:hover {
     background-image: url(../images/villa-arnaga.jpg);
 }
 
+#barcelona {
+    background-image: url(../images/park-guell.jpg);
+}
+
+#northern-ireland {
+    background-image: url(../images/Northern-Ireland.jpg);
+}
+
+#sicily {
+    background-image: url(../images/sicily.jpg);
+}
+
 .card-text {
     padding: 5px;
 }

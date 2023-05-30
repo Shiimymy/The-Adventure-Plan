@@ -450,7 +450,7 @@ textarea:hover {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and own*/
+/* For larger to medium screens size from 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
     h1 {
@@ -486,5 +486,81 @@ textarea:hover {
 
     .card-image {
         padding: 90px;
+    }
+}
+
+/* For medium screen sizes from 940px wide and down*/
+
+@media screen and (max-width: 940px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #hero-section {
+        height: 500px;
+    }
+
+    #hero-image {
+        padding-top: 100px;
+    }
+
+    #hero-content {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px 5px 20px 5px;
+    }
+
+    #view {
+        display: table;
+        text-align: center;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    #view-content {
+        display: table-header-group;
+
+    }
+
+    #view img {
+        width: 60%;
+        display: table-footer-group;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #about {
+        display: block;
+        text-align: center;
+    }
+
+    .section-column {
+        margin: 0 auto;
+    }
+
+    #about h2,
+    #about p {
+        text-align: center;
+    }
+
+    #about-picture {
+        margin: 0 auto;
+    }
+
+    #destinations-tittle div {
+        padding: 15px 5px 15px 5px;
+    }
+
+    .destinations-card {
+        display: block;
+    }
+
+    .card {
+        margin-top: 10px;
     }
 }

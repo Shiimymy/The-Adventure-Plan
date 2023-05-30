@@ -261,18 +261,23 @@ footer button:hover {
 /* Destinations article */
 
 #destinations-articles {
-    margin: 25px 0;
-    width: 90%;
+    margin: 25px 2%;
+}
+
+.destinations-card {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
 }
 
 .card {
     display: flex;
-    justify-content: space-evenly;
     border: 3px solid var(--primary-color);
     border-radius: 4px;
-    margin-top: 20px;
-    margin-left: 25px;
-    width: 90%;
 }
 
 .card-image {
@@ -310,7 +315,7 @@ footer button:hover {
 }
 
 .card-text {
-    padding: 5px;
+    margin: 10px;
 }
 
 .card-text h2 {

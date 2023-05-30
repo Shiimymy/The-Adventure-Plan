@@ -319,7 +319,6 @@ footer button:hover {
 }
 
 .card-text h2 {
-    width: 70%;
     margin-bottom: 5px;
 }
 
@@ -335,7 +334,7 @@ footer button:hover {
 .itinary-button {
     text-align: right;
     display: block;
-    margin: 10px 5px;
+    margin: 20px 5px;
 }
 
 .itinary-button button {

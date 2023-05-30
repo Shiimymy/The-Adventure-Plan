@@ -24,6 +24,12 @@ h3 {
     font-family: 'Lexend', sans-serif;
 }
 
+h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
 h2 {
     text-transform: uppercase;
     font-size: 35px;
@@ -92,12 +98,6 @@ ul {
     padding: 40px 10px 30px 10px;
     border-radius: 4px;
     text-align: center;
-}
-
-h1 {
-    font-size: 70px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
 }
 
 #hero-section p {
@@ -446,4 +446,45 @@ textarea:hover {
     cursor: pointer;
     background-color: var(--brand-color);
     color: var(--contrast-color);
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and own*/
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    #view {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    #view img {
+        margin-right: 20px;
+    }
+
+    #about-picture {
+        margin-left: 20px;
+    }
+
+    .section-column {
+        width: 55%;
+    }
+
+    #destinations-articles {
+        margin: 20px 1%;
+    }
+
+    .card-image {
+        padding: 90px;
+    }
 }

@@ -157,7 +157,7 @@ h1 {
 }
 
 #about-picture {
-    background-image: url(../images/Biarritz.jpg);
+    background-image: url(../images/biarritz.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -306,7 +306,7 @@ footer button:hover {
 }
 
 #northern-ireland {
-    background-image: url(../images/Northern-Ireland.jpg);
+    background-image: url(../images/northern-ireland.jpg);
 }
 
 #sicily {

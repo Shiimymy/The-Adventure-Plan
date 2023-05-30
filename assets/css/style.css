@@ -102,14 +102,14 @@ h1 {
 
 #hero-section p {
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
-#hero-content>i {
+#hero-content i {
     font-size: 50px;
-    padding: 20px 0 0 0;
 }
 
-/* My view section */
+/* my view section */
 
 #view {
     width: 90%;
@@ -186,7 +186,7 @@ h1 {
     margin-top: 10px;
 }
 
-/* Footer */
+/* footer */
 
 footer {
     background-color: var(--brand-color);
@@ -237,8 +237,6 @@ footer button:hover {
 
 }
 
-/*Destination page*/
-
 /* destinations-tittle section*/
 
 #destinations-tittle {
@@ -255,10 +253,11 @@ footer button:hover {
     margin-left: 50px;
     padding: 20px 10px 20px 10px;
     border-radius: 4px;
+    text-align: center;
 }
 
 
-/* Destinations article */
+/* destinations articles */
 
 #destinations-articles {
     margin: 25px 2%;
@@ -353,7 +352,7 @@ footer button:hover {
     transition: 0.5s;
 }
 
-/* Contact page*/
+/* contact page*/
 
 #contact-form {
     background-color: var(--brand-color);
@@ -382,9 +381,10 @@ footer button:hover {
 
 #contact-form p {
     font-size: 20px;
+    margin-top: 10px;
 }
 
-/* Form in contact.html */
+/* contact form */
 
 form {
     padding: 10px 5px;

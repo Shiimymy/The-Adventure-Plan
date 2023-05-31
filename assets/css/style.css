@@ -546,6 +546,7 @@ textarea:hover {
     #about h2,
     #about p {
         text-align: center;
+        margin-bottom: 10px;
     }
 
     #about-picture {
@@ -563,4 +564,16 @@ textarea:hover {
     .card {
         margin-top: 10px;
     }
+
+    #contact-form {
+        height: 650px;
+    }
+
+    #contact-form>div {
+        padding: 10px 5px;
+        width: 70%;
+        margin-left: 10%;
+        left: auto;
+    }
+
 }

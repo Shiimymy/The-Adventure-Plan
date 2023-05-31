@@ -582,3 +582,78 @@ textarea:hover {
     }
 
 }
+
+/* For medium screen sizes from 550px wide and down*/
+
+@media screen and (max-width: 550px) {
+    nav ul {
+        margin: 0 auto;
+        padding: 10px 5px;
+    }
+
+    .menu-links {
+        padding: 0 10px;
+    }
+
+    #hero-section {
+        margin-bottom: 5px;
+        height: 470px;
+    }
+
+    #hero-image {
+        padding-top: 70px;
+    }
+
+    #hero-content {
+        width: 300px;
+    }
+
+    #hero-content i {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #view,
+    #about,
+    .section-column {
+        width: 90%;
+    }
+
+    .about-reason {
+        font-size: 18px;
+    }
+
+    #social-links a {
+        margin: 15px 30px;
+    }
+
+    #destinations-tittle div {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #destinations-tittle h1 {
+        margin-bottom: 0px;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .card-image {
+        padding: 110px;
+    }
+
+    #contact-form div {
+        top: 70px;
+        width: 80%;
+    }
+
+    form {
+        padding: 15px 10px;
+    }
+
+}

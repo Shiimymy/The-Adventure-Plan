@@ -515,6 +515,10 @@ textarea:hover {
         padding: 20px 5px 20px 5px;
     }
 
+    .section-column {
+        width: 70%;
+    }
+
     #view {
         display: table;
         text-align: center;
@@ -555,6 +559,7 @@ textarea:hover {
 
     #destinations-tittle div {
         padding: 15px 5px 15px 5px;
+        width: 400px;
     }
 
     .destinations-card {

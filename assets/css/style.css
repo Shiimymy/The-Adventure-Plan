@@ -330,26 +330,27 @@ footer {
 }
 
 .itinary-button {
-    text-align: right;
     display: block;
-    margin: 20px 5px;
-}
-
-.itinary-button button {
-    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 10px;
     background-color: var(--brand-color);
     color: var(--contrast-color);
     font-weight: 700;
     letter-spacing: 2px;
     border-radius: 4px;
     box-shadow: var(--primary-color) 1px 1px;
+    width: 140px;
+    text-align: center;
+
 }
 
-.itinary-button button:hover {
+.itinary-button:hover {
     background-color: var(--primary-color);
     cursor: pointer;
     transition: 0.5s;
 }
+
 
 /* contact page*/
 
@@ -567,6 +568,14 @@ textarea:hover {
 
     .card {
         margin-top: 10px;
+    }
+
+    .card-text p {
+        margin-bottom: 10px;
+    }
+
+    .itinary-button {
+        margin: 0 auto;
     }
 
     #contact-form {

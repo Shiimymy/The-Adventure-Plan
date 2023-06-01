@@ -673,6 +673,23 @@ textarea:hover {
 /* For medium screen sizes from 360px wide and down*/
 
 @media screen and (max-width: 360px) {
+    #hero-content {
+        width: 240px;
+    }
+
+    #destinations-tittle {
+        padding: 70px 0;
+    }
+
+    #destinations-tittle div {
+
+        width: 240px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
     #contact-form {
         height: 800px;
     }

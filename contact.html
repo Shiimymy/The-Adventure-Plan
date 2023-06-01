@@ -16,9 +16,12 @@
     <header>
         <nav>
             <ul>
-                <li class="menu-links"><a href="index.html">Home</a></li>
-                <li class="menu-links"><a href="destinations.html">Destinations</a></li>
-                <li class="menu-links"><a href="contact.html" id="active">Contact</a></li>
+                <li class="menu-links"><a href="index.html" aria-label="Go to the website home page">Home</a></li>
+                <li class="menu-links"><a href="destinations.html"
+                        aria-label="Go to the website destinations page">Destinations</a>
+                </li>
+                <li class="menu-links"><a href="contact.html" aria-label="Go to the contact page"
+                        id="active">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,26 +33,27 @@
             <p>Let's get in touch to talk about your next trip !</p>
 
             <!--contact form-->
-            <form action="post"> 
+            <form action="post">
                 <label for="name">Name : </label>
-                <input type="text" id="name" required>
+                <input type="text" id="name" aria-label="Enter your name" required>
                 <br>
                 <label for="contact-email">Email : </label>
-                <input type="email" id="contact-email" required>
+                <input type="email" id="contact-email" aria-label="Enter your email address" required>
                 <br>
                 <label for="location">Where would you like to travel ?</label>
                 <br>
                 <textarea name="location" id="location" cols="30" rows="10"
-                    placeholder="Tell me more about your dreamed adventure"></textarea>
+                    placeholder="Tell me more about your dreamed adventure"
+                    aria-label="Enter where you would like to go"></textarea>
                 <br>
                 <input type="radio" name="duration" id="threeNights" value="threeNights">
-                <label for="threeNights">3 Nights</label>
-                <input type="radio" name="duration" id="oneWeek" value="oneWeek">
+                <label for="threeNights" aria-label="Select a 3 nights stay">3 Nights</label>
+                <input type="radio" name="duration" id="oneWeek" value="oneWeek" aria-label="Select a 1 week stay">
                 <label for="oneWeek">1 Week</label>
-                <input type="radio" name="duration" id="twoWeeks" value="twoWeeks">
+                <input type="radio" name="duration" id="twoWeeks" value="twoWeeks" aria-label="Select a 2 weeks stay">
                 <label for="twoWeeks">2 Weeks</label>
                 <br>
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" aria-label="Send the form">
             </form>
         </div>
     </section>
@@ -58,11 +62,14 @@
     <footer>
         <div id="contacts">
             <div id="social-links">
-                <a href="www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
-                <a href="www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-                <a href="www.tiktok.com" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Go to our facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Go to our instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.tiktok.com" target="_blank" rel="noopener"
+                    aria-label="Go to our tiktok page (opens in new tab)"><i class="fa-brands fa-tiktok"></i></a>
             </div>
-            <a href="contact.html" rel="noopener" class="contact-button">Contact me</a>
+            <a href="contact.html" rel="noopener" class="contact-button" aria-label="Go to contact page">Contact me</a>
         </div>
     </footer>
 

@@ -83,7 +83,7 @@ ul {
     width: 100%;
     background-color: var(--last-color);
     color: var(--contrast-color);
-    background-image: url(../images/piano-di-sorento.-and-me.jpg);
+    background-image: url(../images/piano-di-sorento-and-me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -239,7 +239,7 @@ footer {
 /* destinations-tittle section*/
 
 #destinations-tittle {
-    background-image: url(../images/piano-di-sorento.-and-me.jpg);
+    background-image: url(../images/piano-di-sorento-and-me.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--contrast-color);

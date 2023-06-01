@@ -454,7 +454,7 @@ textarea:hover {
 
 @media screen and (max-width: 1200px) {
     h1 {
-        font-size: 60px;
+        font-size: 58px;
         margin-bottom: 15px;
     }
 
@@ -494,7 +494,7 @@ textarea:hover {
 @media screen and (max-width: 940px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     h2 {
@@ -502,7 +502,7 @@ textarea:hover {
     }
 
     #hero-section {
-        height: 500px;
+        height: 480px;
     }
 
     #hero-image {
@@ -516,13 +516,13 @@ textarea:hover {
     }
 
     .section-column {
-        width: 70%;
+        width: 80%;
     }
 
     #view {
         display: table;
         text-align: center;
-        width: 55%;
+        width: 70%;
         margin: 0 auto;
     }
 
@@ -557,9 +557,13 @@ textarea:hover {
         margin: 0 auto;
     }
 
+    .about-reason {
+        margin-top: 13px;
+    }
+
     #destinations-tittle div {
-        padding: 15px 5px 15px 5px;
-        width: 400px;
+        padding: 13px 5px;
+        width: 370px;
     }
 
     .destinations-card {

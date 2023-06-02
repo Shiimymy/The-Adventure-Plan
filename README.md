@@ -39,7 +39,8 @@ Project url : https://shiimymy.github.io/The-Adventure-Plan/
 ![Contact page screenshot](assets/images/contact-page.jpg)
 
 ### Features Left to Implement
-Another feature idea
+
+![Check itinenary button screenshot](assets/images/check-buttons.jpg)
 
 
 ## Testing

@@ -2,9 +2,9 @@
 
 The Adventure Plan is a personal travel blog to help people get ideas for their next holidays. The site will target people who love traveling and are looking for tips and recommendations for a travel which combines historical places to visit with places to relax. It will be useful for people who need help planning holidays, as they could also get into contact for a more personal approach.
 
-screen
+![responsive screen sample](assets/images/responsive-screen.jpg)
 
-link
+Project url : https://shiimymy.github.io/The-Adventure-Plan/
 
 ## Features
 
@@ -13,7 +13,7 @@ link
 #### Navigation Bar
 
 
-#### The landing page image
+#### Hero Section
 
 
 #### My View Section

@@ -12,26 +12,31 @@ Project url : https://shiimymy.github.io/The-Adventure-Plan/
 
 #### Navigation Bar
 
+![Navigation-bar screenshot](assets/images/navigation-bar.jpg)
 
 #### Hero Section
 
+![Hero Section screenshot](assets/images/hero-section.jpg)
 
 #### My View Section
 
+![My view section screenshot](assets/images/my-view-section.jpg)
 
 #### About section
 
+![About section screenshot](assets/images/about-section.jpg)
 
 #### The Footer
 
+![Footer screenshot](assets/images/footer.jpg)
 
 #### Destinations
 
-
+![Destination page screeshot](assets/images/destinations-page.jpg)
 
 #### Contact page
 
-
+![Contact page screenshot](assets/images/contact-page.jpg)
 
 ### Features Left to Implement
 Another feature idea

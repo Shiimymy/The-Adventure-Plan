@@ -129,7 +129,10 @@ This project will be also cloned to work localy on the future realesed by follow
 
 - The social-medias icons and the compass icons were taken from [Font Awesome](https://fontawesome.com/).
 - The header animation in index.html was taken from [Animate.css](https://animate.style/).
+- Instructions on how to implement grid were taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout).
+- Instructions on how to implement required attribut for radio button were taken from [Stackoverflow](https://stackoverflow.com/questions/8287779/how-to-use-the-required-attribute-with-a-radio-input-field).
+- Website structure inspiration taken  from [Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). 
 
 ### Media
 
-All pictures where taken during my trips as I want to display my own experience in this website0
+All pictures where taken during my trips as I want to display my own experience in this website.

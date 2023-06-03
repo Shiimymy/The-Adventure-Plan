@@ -4,7 +4,7 @@ The Adventure Plan is my **personal travel blog** website to help people get ide
 
 ![responsive screen sample](assets/images/responsive-screen.jpg)
 
-Project url : [Project url](https://shiimymy.github.io/The-Adventure-Plan/)
+Project url : [The Adventure Plan](https://shiimymy.github.io/The-Adventure-Plan/)
 
 ## Features
 
@@ -72,18 +72,19 @@ For each destination page, we would find an itinerary with Historical sites to v
 
 ### Manual Testing 
 
-links 
-media query 
-form 
 
 ### Validator Testing
-HTML
 
-CSS
+ - HTML Testing : 
+  Errrors found with [W3C Validator](https://validator.w3.org/#validate_by_input) in all buttons as I used an anchor tag as parent element. All buttons elements were deleted and I styled the anchor element to look like a button.
+  There was also paragraph endiing tags on there own which were deleted.
+  
+- CSS Testing : 
+  No error returned found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 
 ### Fix Bug
 
-social-links
+ I social-links
 form - required 
 
 ## Deployment

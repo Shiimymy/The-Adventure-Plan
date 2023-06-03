@@ -360,7 +360,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 740px;
+    height: 950px;
     color: var(--contrast-color);
     text-align: center;
 }
@@ -582,9 +582,6 @@ textarea:hover {
         margin: 0 auto;
     }
 
-    #contact-form {
-        height: 650px;
-    }
 
     #contact-form>div {
         padding: 10px 5px;
@@ -659,6 +656,10 @@ textarea:hover {
         padding: 110px;
     }
 
+    #contact-form {
+        height: 790px;
+    }
+
     #contact-form div {
         top: 70px;
         width: 80%;
@@ -696,6 +697,10 @@ textarea:hover {
 
     #contact-form div {
         top: 90px;
+    }
+
+    .social-links a {
+        margin: 13px 20px;
     }
 
 }

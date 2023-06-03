@@ -73,6 +73,7 @@ For each destination page, we would find an itinerary with Historical sites to v
 ### Manual Testing 
 
 
+
 ### Validator Testing
 
  - HTML Testing : 

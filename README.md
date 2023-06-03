@@ -72,7 +72,12 @@ For each destination page, we would find an itinerary with Historical sites to v
 
 ### Manual Testing 
 
+I checked first and confirmed that the website was working on different browsers : Google Chrome, Microsoft Edge and Firefox.
 
+Through Manual testing I check all the links and I could realised that the socials links were not working. I discovered that I forgot the "https://" at the begining of each url and fixed them afterward.
+
+I manualy check if the responsivness was working and if it was smooth enough.
+For media query, I made some changes after testing and adapt the css of the contact page and the footer links.
 
 ### Validator Testing
 
@@ -83,10 +88,9 @@ For each destination page, we would find an itinerary with Historical sites to v
 - CSS Testing : 
   No error returned found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
 
-### Fix Bug
+### Unfix responsivness
 
- I social-links
-form - required 
+I left for the moment the unresponsivness of the contact.html page for some tablets due to time but I will add it in the future.
 
 ## Deployment
 

@@ -70,6 +70,7 @@ For each destination page, we would find an itinerary with Historical sites to v
 
 ## Testing
 
+
 ### Manual Testing 
 
 I checked first and confirmed that the website was working on different browsers : Google Chrome, Microsoft Edge and Firefox.
@@ -82,7 +83,7 @@ For media query, I made some changes after testing and adapt the css of the cont
 ### Validator Testing
 
  - HTML Testing : 
-  Errrors found with [W3C Validator](https://validator.w3.org/#validate_by_input) in all buttons as I used an anchor tag as parent element. All buttons elements were deleted and I styled the anchor element to look like a button.
+  Errors found with [W3C Validator](https://validator.w3.org/#validate_by_input) in all buttons as I used an anchor tag as parent element. All buttons elements were deleted and I styled the anchor element to look like a button.
   There was also paragraph endiing tags on there own which were deleted.
   
 - CSS Testing : 
@@ -92,16 +93,29 @@ For media query, I made some changes after testing and adapt the css of the cont
 
 I left for the moment the unresponsivness of the contact.html page for some tablets due to time but I will add it in the future.
 
+### Performance Testing
+
+I used [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to test the performances of my 4 pages. The results were positive as scores are between 76 and 90. Please find the result below at the time the tests : 
+
+- index page performances : 
+![index performance](assets/images/index-performance.jpg)
+- destinations page performances : 
+![destination performance](assets/images/destinations-performance.jpg)
+- contact page performances : 
+![contact performance](assets/images/contact-performance.jpg)
+- thanks page performances : 
+![thanks performance](assets/images/thanks-perfomance.jpg)
+
 ## Deployment
 
-how was it dep : steps
-clone project in terminal "git clone url" : steps
-fork repo : describe steps 
 
 ## Credits
 
-
 ### Content
 
+- The social-medias icons and the compass icons were taken from [Font Awesome](https://fontawesome.com/).
+- The header animation in index.html was taken from [Animate.css](https://animate.style/).
 
 ### Media
+
+All pictures where taken during my trips as I want to display my own experience in this website0

@@ -108,6 +108,20 @@ I used [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to t
 
 ## Deployment
 
+- Fork template
+The first step before coding was to fork the [ci-full-template](https://github.com/Code-Institute-Org/ci-full-template) from [Code Institute](https://codeinstitute.net/) as asked. To do so, once on the ci-full-template in Github *(as per first link)*, I cliked on **Fork** on the top-right of the page. Then I renamed the repositorie with the name of my project under **Repository name** and clicked to **Create Fork**. This allowed me to update the template.
+
+- Project deployment
+Once the site nearly ready, it was deployed thanks to [Github](https://github.com/) from the [The-Adventure-Plan repositorie](https://github.com/Shiimymy/The-Adventure-Plan).
+Once in the repositorie, I cliked on **Settings** in the top navigation bar then on **Pages** in the left menu. Once the page opened, in the **Branch** section, I choose in the drop down menu **main** and clicked on **Save**.
+
+- Clone project 
+
+This project will be also cloned to work localy on the future realesed by following this setps :
+1. Go in [The Adventure Plan repositorie](https://github.com/Shiimymy/The-Adventure-Plan),
+2. Click on Code to find the url and copy it.
+3. In the Terminal write *git clone* and paste the url.
+4. Press Enter to create the clone.
 
 ## Credits
 
